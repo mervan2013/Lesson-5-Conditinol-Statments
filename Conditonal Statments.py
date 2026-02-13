@@ -1,8 +1,8 @@
-num = 3
-if num > 0:
-     print(num, "is a positive number")
-     
-num = -1
-if num > 0:
-     print(num, "is a positive number")
-
+i = int(input("enter a number : "))
+if (i < 75):
+    print("too cold")
+    print("im in the if block")
+else:
+    print("Great Temps")
+    print("i'm in the else block")
+print("im not in the if or the else block")
